@@ -18,7 +18,7 @@ def connected_knn(points, symmetry=True, neighbors=6, extra_neighbors=3):
 
        Paramters:
 
-            points: numpy array where each row corrspond to a point in a n-dimenisonal space
+            points: numpy array where each row correspond to a point in a n-dimenisonal space
                     (columns are the coordinates)
 
             symmetry: True ensures symmetry in tha returned adjacency matrix
